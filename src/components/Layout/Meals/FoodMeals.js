@@ -11,9 +11,11 @@ const FoodMeals = ({ itemsData }) => {
             return (
               <MealCard
                 key={item.id}
+                id={item.id}
                 imgSrc={item.imgSrc}
                 title={item.title}
                 desc={item.desc}
+                price={item.price}
               />
             );
           })

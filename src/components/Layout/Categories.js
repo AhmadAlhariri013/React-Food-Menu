@@ -2,9 +2,10 @@ import { Button } from "@material-tailwind/react";
 import React from "react";
 import { JackInTheBox } from "react-awesome-reveal";
 const Categories = ({ filterCategory, allCategories }) => {
-  const onFilterHandler = (cat) => {
+  const handleFilterCategory = (cat) => {
     filterCategory(cat);
   };
+
   return (
     <div className="flex flex-col justify-center items-center mt-5">
       <div className=" border-b-4 border-deep-orange-400 pb-1">
@@ -20,7 +21,7 @@ const Categories = ({ filterCategory, allCategories }) => {
                 return (
                   <Button
                     key={index}
-                    onClick={() => onFilterHandler(cat)}
+                    onClick={() => handleFilterCategory(cat)}
                     className=" bg-blue-gray-50 text-deep-orange-500 hover:bg-gradient-to-l hover:from-deep-orange-100 hover:to-deep-orange-300 hover:text-gray-50 hover:transition-all hover:duration-300"
                   >
                     {cat}

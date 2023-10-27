@@ -4,7 +4,7 @@ export const items = [
     imgSrc: "Spinach-crespolini.jpg",
     title: "Spinach crespolini",
     desc: "Enjoy these healthy spelt pancakes filled with spinach, ricotta and tomato – they deliver all of your 5-a-day, plus spinach supports bone and eye health",
-    price: "",
+    price: 25,
     category: "Breakfast",
   },
   {
@@ -12,7 +12,7 @@ export const items = [
     imgSrc: "Loaded-Fries.jpg",
     title: "Loaded fries",
     desc: "Enjoy fries loaded with tomatoes, soured cream, jalapeños and pickled red onions – perfect for movie nights or entertaining, they’ll be a big hit with any crowd",
-    price: "",
+    price: 30,
     category: "Breakfast",
   },
   {
@@ -20,7 +20,7 @@ export const items = [
     imgSrc: "Sausage.jpg",
     title: "Sausage & lentil cassoulet",
     desc: "This filling and easy sausage cassoulet packs in bags of flavour without a big price tag",
-    price: "",
+    price: 43,
     category: "Lanch",
   },
   {
@@ -28,7 +28,7 @@ export const items = [
     imgSrc: "Red-onion-tarte-tatin.jpg",
     title: "Red Onion Tarte",
     desc: "Enjoy these healthy spelt pancakes filled with spinach, ricotta and tomato – they deliver all of your 5-a-day, plus spinach supports bone and eye health",
-    price: "",
+    price: 12,
     category: "Dinner",
   },
   {
@@ -36,7 +36,7 @@ export const items = [
     imgSrc: "Sweetcorn.jpg",
     title: "Sweetcorn fritters",
     desc: "Make the most of sweetcorn with these crisp fritters. Enjoy them for brunch, lunch or as a side dish",
-    price: "",
+    price: 19,
     category: "Lanch",
   },
 ];
